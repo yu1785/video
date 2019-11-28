@@ -12,6 +12,10 @@ public class Person {
     public Person() {
     }
 
+    public void eat(){
+        System.out.println("Someone is eating!");
+    }
+
     public String getName() {
         return name;
     }
